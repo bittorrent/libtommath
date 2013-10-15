@@ -1,5 +1,5 @@
 
-lib tommath : [ glob-tree *.c : .git mpi.c ]
+lib tommath : [ glob-tree *.c : .git mpi.c etc demo ]
 	: # requirements
 	<include>.
 	# work-around a bug in the clang toolset
