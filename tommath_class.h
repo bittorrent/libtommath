@@ -127,6 +127,8 @@
 #define BN_S_MP_SQR_C
 #define BN_S_MP_SUB_C
 #define BNCORE_C
+#define BN_MP_IMPORT_C
+#define BN_MP_EXPORT_C
 #endif
 
 #if defined(BN_ERROR_C)
